@@ -1,11 +1,11 @@
-var pathImg = '/WORDPRESS_PLUG/test-api/nwa/img/';
+var pathImg = '/jsonQuizz/nwa/img/';
 //http://wfacto.com/wp-content/plugins/
 
 
 
 var questionnaire = {
 	form:"nwa",
-	//link:'http://wfacto.com/landing/nwa-quizz-test-le-plus-dangereux-monde/',
+	//link:'http://.com/landing/nwa-quizz-test-le-plus-dangereux-monde/',
 	link:'',
 	pageTitle :'N.W.A member test personality',
 	questionTitle :'Du groupe légendaire NWA',
