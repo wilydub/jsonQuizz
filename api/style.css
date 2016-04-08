@@ -1,0 +1,61 @@
+#next{display:none}
+#qTitle,#Qimage,#QsubTitle,#num_question{color:brown;text-align:center;}
+#next{margin-left:150px;}
+label {width:150px;cursor:pointer;}
+#content {
+color:#414141;
+  width:auto/*515px*/;
+  border : inset 1px brown;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+figcaption{text-align:center;margin-top:-15px;margin-bottom:20px;color:#414141;}
+#content > div > p {padding:10px; border-top:1px brown solid;color:#414141}
+#content h3,#content h2	{padding:0px;text-align:center; color:brown}
+.presponses{height:auto;}
+.presponses>label>img {    
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px transparent outset;
+}
+
+label > input { /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+label:hover > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  /*padding:5px;*/
+  border:1px outset brown; 
+}
+
+label:hover > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px outset brown;
+}
+
+label > input:checked + figcaption { /* (RADIO CHECKED) IMAGE STYLES */
+  font-weight: bold;
+}
+
+p#q{
+  border-bottom:1px transparent solid;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:center;
+  color:brown;
+}
+
+
+
+
+
